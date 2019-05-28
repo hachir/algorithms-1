@@ -1,3 +1,10 @@
+/**Intuition
+Two strings are anagrams if and only if their sorted strings are equal.
+Algorithm
+Maintain a map ans : {String -> List} where each key 
+ is a sorted string, and each value is the list of strings from the initial input that when sorted, are equal to 
+In javascript, we will store the key as a string, eg. code. 
+*/
 
 var groupAnagrams = function(strs) {
     strs = strs.sort();
